@@ -8,7 +8,7 @@ This document provides a detailed overview of the technical architecture for the
 
 ### 2.1. Resource Group
 
-A single Azure Resource Group named `rg-cicd-free-tier` will be created in the `eastus` region. This group will contain all resources, providing a logical boundary for management, policy assignment, and cleanup.
+A single Azure Resource Group named `rg-cicd-free-tier` will be created in the `westus2` region. This group will contain all resources, providing a logical boundary for management, policy assignment, and cleanup.
 
 - **Terraform Resource**: `azurerm_resource_group.cicd`
 - **Tagging Strategy**: All resources within this group will be tagged with `Environment=Production`, `ManagedBy=Terraform`, and `CostCenter=FreeTier` for governance and tracking.
