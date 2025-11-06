@@ -1,0 +1,12 @@
+# This is an example file. DO NOT commit the actual terraform.tfvars file with sensitive values.
+# For local development, copy this file to terraform.tfvars and fill in your actual subscription ID.
+
+subscription_id     = "c3b5d540-cbb6-42fa-9927-30e6a4a97c2e"
+resource_group_name = "rg-cicd-free-tier"
+location            = "eastus2"
+tags = {
+  Environment = "Development"
+  ManagedBy   = "Terraform"
+  CostCenter  = "FreeTier"
+}
+
