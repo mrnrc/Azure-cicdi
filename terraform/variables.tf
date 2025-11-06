@@ -25,5 +25,6 @@ variable "tags" {
     Environment = "Production"
     ManagedBy   = "Terraform"
     CostCenter  = "FreeTier"
+    Project     = "AzureCICDI-MVP"
   }
 }
